@@ -15,4 +15,7 @@
 * We use kill chain as a systematic process to target and engage an adversary to create desired effects.
   * We also use kill chain in the military domain as the U.S. military with their targeting process: find, fix, track, target, engage, asses (F2T2EA).
   * A kill chain is a end-to-end process, because if one step fails, it will interrupt the entire process.
-* 
+* By using the previous base, a kill chain has been developed especially for the intrustions. It is based on the fact that an intrustion involves that the aggressor has to develop enough power to be able to establish a presence inside trusted environment.
+ * This kill chain is composed of the following elements:
+   * ds
+   * fds
