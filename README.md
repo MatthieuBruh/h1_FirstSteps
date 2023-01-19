@@ -50,5 +50,6 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 * When you are writing a command, you can find two signs that you must know:
  * After the $ sign, it is the normal command. It will be executed by the machine.
  * After the # sign, it is a comment. By this fact, you can write what you want, the computer will not execute it.
+ 
      $ pwd # This second part is ignored.
      /home/matthieu
