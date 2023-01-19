@@ -40,6 +40,6 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 
 * By measuring the performance and the efficiency of the defensives actions, defenders can create some metrics of the resiliency.
 * 
-![Figure 2: Illustration of the relative effectiveness of defenses against subsequent intrusion attempts(https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/fig2.png)
+![Figure 2: Illustration of the relative effectiveness of defenses against subsequent intrusion attempts](https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/fig2.png)
 
 
