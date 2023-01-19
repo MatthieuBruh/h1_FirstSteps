@@ -36,4 +36,4 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 * Protection against previously undisclosed "zero-day" exploits is important, but it is not the only focus.
 * A defensive strategy of complete indicator utilization is key to achieving resiliency against persistent adversaries.
 * This strategy involves focusing on repeated indicators and tools used by the adversary, which increases the cost of executing successful intrusions for the adversary.
- *This forces the adversary to make more difficult and comprehensive adjustments to achieve their objectives.
+* This forces the adversary to make more difficult and comprehensive adjustments to achieve their objectives.
