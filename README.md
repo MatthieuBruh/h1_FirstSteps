@@ -55,8 +55,3 @@ Here is it some text
 
      $ pwd # This second part is ignored.
      /home/matthieu
-     
-
-
-
-    ls
