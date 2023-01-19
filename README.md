@@ -31,7 +31,7 @@ The intrusion kill chain is a useful model for defenders to understand and count
 
 ![Table 1: Courses of Action Matrix](https://miro.medium.com/max/903/1*7q_uh4DLZ5b62i_e8jfTxA.jpeg)
 <p align="center">
-  <img width="903" height="577" src="[https://www.python.org/python-.png](https://miro.medium.com/max/903/1*7q_uh4DLZ5b62i_e8jfTxA.jpeg)">
+  <img width="903" height="577" src="https://www.python.org/python-.png](https://miro.medium.com/max/903/1*7q_uh4DLZ5b62i_e8jfTxA.jpeg">
 </p>
 
 
