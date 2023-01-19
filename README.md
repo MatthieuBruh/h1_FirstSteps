@@ -30,6 +30,7 @@
 The intrusion kill chain is a useful model for defenders to understand and counter the specific processes an attacker uses to target an enterprise. By aligning defensive capabilities with the kill chain, defenders can measure their effectiveness and plan investments to address any gaps. This approach, known as intelligence-driven cyber defense, involves making security decisions and measurements based on a deep understanding of the attacker.
 
 Table 1 is a matrix that shows the different possible actions that the tools (located in the matrix) are able to do. For example, in the operational phase, HIDS is able to detect exploits, patching denies exploitation altogether, and data execution prevention.
+
 <p align="center"> <img width="903" height="577" alt="Table 1: Courses of Action Matrix" src="https://miro.medium.com/max/903/1*7q_uh4DLZ5b62i_e8jfTxA.jpeg"> </p>
 
 * Completeness in security is important because it equates to resiliency, which is the defender's primary goal when faced with persistent adversaries that continually adapt their operations over time.
@@ -39,7 +40,8 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 * This forces the adversary to make more difficult and comprehensive adjustments to achieve their objectives.
 
 * By measuring the performance and the efficiency of the defensives actions, defenders can create some metrics of the resiliency.
-* 
-![Figure 2: Illustration of the relative effectiveness of defenses against subsequent intrusion attempts](https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/fig2.png)
+
+
+<p align="center"> <img alt="Figure 2: Illustration of the relative effectiveness of defenses against subsequent intrusion attempts" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/fig2.png"> </p>
 
 
