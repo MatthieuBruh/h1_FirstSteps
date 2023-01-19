@@ -75,7 +75,7 @@ This is some text
     $ rmdir apple # Delete the directory named apple
     $ rm foo.txt # Remove the foo.txt file
 
-**SSH**
+**SSH**<br />
 SSH is used to control a machine remotly.
 
     $ ssh 192.168.1.10 # We connect remotly to the computer that has the IP address
@@ -87,7 +87,7 @@ SSH is used to control a machine remotly.
     $ man ls # To show the manual page of command
     $ ls --help # To show the manual page of the ls command
 
-**HISTORY & GUESSING**
+**HISTORY & GUESSING**<br />
 I advise you to use [tab] when you are writing a command. By using it, you will have an autocompletion.
 
     $ history # Shows you the history of your commands
@@ -102,7 +102,7 @@ I advise you to use [tab] when you are writing a command. By using it, you will 
 | /media/   | Removable media such an external SSD or a USB stick. |
 | /var/log  | Where all the logs of the different packages are stored. |
 
-**ADMINISTRATIVE COMMANDS**
+**ADMINISTRATIVE COMMANDS**<br />
 When you are using Linux, I advise you to use the concept of the least privilege. Avoid as much as possible to be as an administrator with the 'sudo' command.
 
     $ sudo apt-get update # Update a list of available packages.
