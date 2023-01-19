@@ -10,3 +10,9 @@
 * Because of the evolution of the threads, it is necessary to use an intelligence-based model. With this kind of model, the defenders don't only mitigate the component of risk. 
 
 
+## 3.2 Intrusion Kill Chain
+
+* We use kill chain as a systematic process to target and engage an adversary to create desired effects.
+  * We also use kill chain in the military domain as the U.S. military with their targeting process: find, fix, track, target, engage, asses (F2T2EA).
+  * A kill chain is a end-to-end process, because if one step fails, it will interrupt the entire process.
+* 
