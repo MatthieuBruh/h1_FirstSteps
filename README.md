@@ -52,5 +52,43 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
  * After the # sign, it is a comment. By this fact, you can write what you want, the computer will not execute it.
 
 This is some text
+
     $ pwd # This second part is ignored.
-    /home/matthieu
+    /home/haaga
+
+#### The most used commands in Linux
+**MOVING & EXPLORING***
+
+    ls # To list all the files of the current directory
+    cd myDirectory/ # To move in the directory named myDirectory
+    less helia.txt # Shows the file but page by page (space for next page, b for previous page, slashes for search, q for exist
+    ls /etc|less # The output of any command can be read a whole screen at a time by sending the output to less
+
+**FILE & DIRECTORY MANIPULATION**
+
+    nano foo.txt # Create a text file named foo
+    mkdir apple # Create a directory named apple
+    mv OLDNAME NEWNAME # Change the name of a directory
+    mv fruits home/ # Move the file to the directory home
+    cp -r first second # Create a recursive copy of a file or directory.
+    rmdir apple # Delete the directory named apple
+    rm foo.txt # Remove the foo.txt file
+
+**SSH**
+SSH is used to control a machine remotly.
+
+    ssh 192.168.1.10 # We connect remotly to the computer that has the IP address
+    scp -r FOLDER 192.168.1.10:public_html/ # Copy a file securly to the remoted computer
+    192.168.1.10$ exit # To close the connection
+
+**HELP**
+
+    man ls # To show the manual page of command
+    ls --help # To show the manual page of the ls command
+
+**HISTORY & GUESSING**
+I advise you to use [tab] when you are writing a command. By using it, you will have an autocompletion.
+
+    history # Shows you the history of your commands
+
+**DIRECTORY**
