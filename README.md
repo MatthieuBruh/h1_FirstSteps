@@ -46,3 +46,11 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 ------
 
 ### [Karvinen 2020: Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
+* One of oldest thing in IT is the command line. It is used since a long time and it has several advantages, like the speed, possibility of automation and it is expressive.
+* When you are writing a command, you can find two signs that you must know:
+ * After the $ sign, it is the normal command. It will be executed by the machine.
+ * After the # sign, it is a comment. By this fact, you can write what you want, the computer will not execute it.
+ * All the charat
+    $ pwd # This second part is ignored.
+    /home/matthieu
+
