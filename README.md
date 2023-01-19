@@ -43,4 +43,6 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 * From the illustration, it is easy to see that one of the mitigation measures has worked. Defenders can protect their infrastructure with this detection. However, a few months later, attackers would try the same flaw again but with more advanced techniques. As a result, they manage to get through again. It is only after the defenders have updated their measures that they are able to defend themselves again.
 <p align="center"> <img alt="Figure 2: Illustration of the relative effectiveness of defenses against subsequent intrusion attempts" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/fig2.png"> </p>
 
+------
 
+### [Karvinen 2020: Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
