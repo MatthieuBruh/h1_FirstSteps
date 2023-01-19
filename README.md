@@ -24,3 +24,12 @@
    * **Installation:** This step concern the installation of a backdore or a trojan inside the victim system. It creates a persistent access for the aggressors.
    * **Command and Control (C2):** Compromised hosts send signals to an Internet control server to establish a C2 channel, which is typically set up manually rather than automatically by APT malware. Once established, the C2 channel allows intruders to have direct access within the target environment.
    * **Actions on Objectives:** It is only in this step that the intruders (aggressors) can take actions to achieve their objectives. Generally, the main objective is data exfiltration (collecting, encrypting, and extracting) from the victim environment.
+
+
+## 3.3 Courses of Action
+* The intrusion kill chain is a useful model for defenders to understand and counter the specific processes an attacker uses to target an enterprise. By aligning defensive capabilities with the kill chain, defenders can measure their effectiveness and plan investments to address any gaps. This approach, known as intelligence-driven cyber defense, involves making security decisions and measurements based on a deep understanding of the attacker.
+
+
+
+
+
