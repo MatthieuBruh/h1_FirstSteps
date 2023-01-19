@@ -53,4 +53,3 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 
     $ pwd # This second part is ignored.
     /home/matthieu
-
