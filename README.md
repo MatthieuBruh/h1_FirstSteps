@@ -46,13 +46,12 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 ------
 
 ### [Karvinen 2020: Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
-* One of oldest thing in IT is the command line. It is used since a long time and it has several advantages, like the speed, possibility of automation and it is expressive.
+* One of the oldest thing in IT is on the command line. It has been used for a long time, and it has several advantages, like the speed, possibility of automation and it is expressive.
 * All the following commands start with a $. You don't have to write it when you write your command.
 * When you are writing a command, you can find two signs that you must know:
  * After the $ sign, it is the normal command. It will be executed by the machine.
  * After the # sign, it is a comment. By this fact, you can write what you want, the computer will not execute it.
 
-This is some text
 
     $ pwd # This second part is ignored.
     /home/haaga
@@ -61,7 +60,7 @@ This is some text
 **MOVING & EXPLORING***
 
     $ ls # To list all the files of the current directory
-    $ cd myDirectory/ # To move in the directory named myDirectory
+    $ cd myDirectory/ # To move into the directory named myDirectory
     $ less helia.txt # Shows the file but page by page (space for next page, b for previous page, slashes for search, q for exist
     $ ls /etc|less # The output of any command can be read a whole screen at a time by sending the output to less
 
@@ -76,11 +75,11 @@ This is some text
     $ rm foo.txt # Remove the foo.txt file
 
 **SSH**<br />
-SSH is used to control a machine remotly.
+SSH is used to control a machine remotely.
 
-    $ ssh 192.168.1.10 # We connect remotly to the computer that has the IP address
+    $ ssh 192.168.1.10 # We connect remotely to the computer that has the IP address
     192.168.1.10$ exit # To close the connection
-    $ scp -r FOLDER 192.168.1.10:public_html/ # Copy a file securly to the remoted computer
+    $ scp -r FOLDER 192.168.1.10:public_html/ # Copy a file securely to the remoted computer
 
 **HELP**
 
@@ -88,7 +87,7 @@ SSH is used to control a machine remotly.
     $ ls --help # To show the manual page of the ls command
 
 **HISTORY & GUESSING**<br />
-I advise you to use [tab] when you are writing a command. By using it, you will have an autocompletion.
+I advise you to use [tab] when you are writing a command. By using it, you will have an autocomplete.
 
     $ history # Shows you the history of your commands
 
