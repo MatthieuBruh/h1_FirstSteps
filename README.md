@@ -32,4 +32,8 @@ The intrusion kill chain is a useful model for defenders to understand and count
 Table 1 is a matrix that shows the different possible actions that the tools (located in the matrix) are able to do. For example, in the operational phase, HIDS is able to detect exploits, patching denies exploitation altogether, and data execution prevention.
 <p align="center"> <img width="903" height="577" alt="Table 1: Courses of Action Matrix" src="https://miro.medium.com/max/903/1*7q_uh4DLZ5b62i_e8jfTxA.jpeg"> </p>
 
-
+* Completeness in security is important because it equates to resiliency, which is the defender's primary goal when faced with persistent adversaries that continually adapt their operations over time.
+* Protection against previously undisclosed "zero-day" exploits is important, but it is not the only focus.
+* A defensive strategy of complete indicator utilization is key to achieving resiliency against persistent adversaries.
+* This strategy involves focusing on repeated indicators and tools used by the adversary, which increases the cost of executing successful intrusions for the adversary.
+ *This forces the adversary to make more difficult and comprehensive adjustments to achieve their objectives.
