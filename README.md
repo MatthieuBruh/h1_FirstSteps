@@ -120,12 +120,12 @@ To ssh bandit.labs.overthewire.org on the port 2220 with the username 'bandit0'.
 
     $ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
-## Level 1
-My first reflex was to check the file in my current directory. By this fact, I use the following command:
+## Level 0 -> 1
+My first reflex was to check the file in my current directory. Of this fact, I use the following command:
 
     $ ls
 
-I saw that there was a file named 'readme'. I decided to open it to saw the content.
+I saw that there was a file named 'readme'. I decided to open it to see the content.
 
     $ cat readme
 
@@ -133,17 +133,27 @@ With the previous command, I was able to read the password that was hidden in th
 
     $ ssh bandit1@bandit.labs.overthewire.org -p 2220
 
-## Level 2
+## Level 1 -> 2
 I have to search a file in the home repository. So, I decided to go back in the file tree. By using the command:
 
     $ cd ..
 
-Now, I knew that I have to find a file called -. So, to find and open a file in same time, I wrote the command:
+Now, I knew that I have to find a file called -. So, to find and open a file in the same time, I wrote the command:
 
     cat `find /home/ -name "-"`
 
+## Level 2 -> 3
+This level was not really complicated. When I found the document, I just started to write the name of the file and I used [tab]. It gives me this command:
 
+    cat spaces\ in\ this\ filename
 
+## Level 3 -> 4
+For this level, I used the ls command and the option that are available. So, I added the option *-a* to see all files and directories.
+I found a file and I opened it, there was the new password.
 
+## Level 4 -> 5
+Firstly, I moved to the inhere directory. Then, I have to find a file that contains some ASCII characters. So, I decided to try the command:
 
+    file ./-file*
+    # Then, I knew which file was containing some ASCII characters. By this fact, I decided to cat the correct file to find the password.
 
