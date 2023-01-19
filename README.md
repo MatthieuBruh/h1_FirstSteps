@@ -17,12 +17,10 @@
   * A kill chain is a end-to-end process, because if one step fails, it will interrupt the entire process.
 * By using the previous base, a kill chain has been developed especially for the intrustions. It is based on the fact that an intrustion involves that the aggressor has to develop enough power to be able to establish a presence inside trusted environment.
  * This kill chain is composed of the following elements:
-   * Reconnaissance
-    * This step represent the research, the identification and the selection of targets.
-   * Weaponization
-    * It is the coupling between a remote access with an exploit into a deliverable payload. Nowadays, clients application such as PDF or Word documents are used as a weaponized deliverable.
-   * Delivery
-   * Exploitation
-   * Installation
-   * Command and Control (C2)
-   * Actions on Objectives
+   * **Reconnaissance:** This step represent the research, the identification and the selection of targets.
+   * **Weaponization:** It is the coupling between a remote access with an exploit into a deliverable payload. Nowadays, clients application such as PDF or Word documents are used as a weaponized deliverable.
+   * **Delivery:**
+   * **Exploitation:**
+   * **Installation:**
+   * **Command and Control (C2):**
+   * **Actions on Objectives:**
