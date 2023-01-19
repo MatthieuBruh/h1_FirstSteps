@@ -74,7 +74,7 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
     $ rmdir apple # Delete the directory named apple
     $ rm foo.txt # Remove the foo.txt file
 
-**SSH**<br />
+**SSH** <br />
 SSH is used to control a machine remotely.
 
     $ ssh 192.168.1.10 # We connect remotely to the computer that has the IP address
@@ -86,7 +86,7 @@ SSH is used to control a machine remotely.
     $ man ls # To show the manual page of command
     $ ls --help # To show the manual page of the ls command
 
-**HISTORY & GUESSING**<br />
+**HISTORY & GUESSING** <br />
 I advise you to use [tab] when you are writing a command. By using it, you will have an autocomplete.
 
     $ history # Shows you the history of your commands
@@ -101,7 +101,7 @@ I advise you to use [tab] when you are writing a command. By using it, you will 
 | /media/   | Removable media such an external SSD or a USB stick. |
 | /var/log  | Where all the logs of the different packages are stored. |
 
-**ADMINISTRATIVE COMMANDS**<br />
+**ADMINISTRATIVE COMMANDS** <br />
 When you are using Linux, I advise you to use the concept of the least privilege. Avoid as much as possible to be as an administrator with the 'sudo' command.
 
     $ sudo apt-get update # Update a list of available packages.
@@ -109,3 +109,41 @@ When you are using Linux, I advise you to use the concept of the least privilege
     $ sudo apt-get install apache2 # Install the package apache2
     $ nethack # To run nethack
     $ sudo apt-get purge nethack # To remove the package nethack
+
+
+------
+# Solve
+### [Bandit oh-five](https://overthewire.org/wargames/bandit/)
+
+## Level 0
+To ssh bandit.labs.overthewire.org on the port 2220 with the username 'bandit0'. We have to use the *-p* to choose a specific port
+
+    $ ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+## Level 1
+My first reflex was to check the file in my current directory. By this fact, I use the following command:
+
+    $ ls
+
+I saw that there was a file named 'readme'. I decided to open it to saw the content.
+
+    $ cat readme
+
+With the previous command, I was able to read the password that was hidden in the file. So, I copied the password. Then, I closed the connection with the command <code>exit</code>. Now, I am able to connect to the server with the new username and password. I used the same command as the level0, but I changed the username.
+
+    $ ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+## Level 2
+I have to search a file in the home repository. So, I decided to go back in the file tree. By using the command:
+
+    $ cd ..
+
+Now, I knew that I have to find a file called -. So, to find and open a file in same time, I wrote the command:
+
+    cat `find /home/ -name "-"`
+
+
+
+
+
+
