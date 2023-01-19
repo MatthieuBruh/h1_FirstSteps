@@ -1,3 +1,8 @@
+# Table of contents
+1. [ Summary. ](#summary)
+2. [ Solve. ](#solve)
+
+<a name="summary"></a>
 # Summary
 ### [Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
 
@@ -112,6 +117,8 @@ When you are using Linux, I advise you to use the concept of the least privilege
 
 
 ------
+
+<a name="solve"></a>
 # Solve
 ### [Bandit oh-five](https://overthewire.org/wargames/bandit/)
 
@@ -155,5 +162,6 @@ I found a file and I opened it, there was the new password.
 Firstly, I moved to the inhere directory. Then, I have to find a file that contains some ASCII characters. So, I decided to try the command:
 
     file ./-file*
-    # Then, I knew which file was containing some ASCII characters. By this fact, I decided to cat the correct file to find the password.
+
+Then, I knew which file was containing some ASCII characters. By this fact, I decided to cat the correct file to find the password.
 
