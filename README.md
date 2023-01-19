@@ -30,6 +30,8 @@
 The intrusion kill chain is a useful model for defenders to understand and counter the specific processes an attacker uses to target an enterprise. By aligning defensive capabilities with the kill chain, defenders can measure their effectiveness and plan investments to address any gaps. This approach, known as intelligence-driven cyber defense, involves making security decisions and measurements based on a deep understanding of the attacker.
 
 ![Table 1: Courses of Action Matrix](https://miro.medium.com/max/903/1*7q_uh4DLZ5b62i_e8jfTxA.jpeg)
-
+<p align="center">
+  <img width="903" height="577" src="[https://www.python.org/python-.png](https://miro.medium.com/max/903/1*7q_uh4DLZ5b62i_e8jfTxA.jpeg)">
+</p>
 
 
