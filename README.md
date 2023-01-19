@@ -1,5 +1,5 @@
 # Summary
-# [Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
+### [Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
 
 ## Abstract
 
@@ -37,3 +37,9 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 * A defensive strategy of complete indicator utilization is key to achieving resiliency against persistent adversaries.
 * This strategy involves focusing on repeated indicators and tools used by the adversary, which increases the cost of executing successful intrusions for the adversary.
 * This forces the adversary to make more difficult and comprehensive adjustments to achieve their objectives.
+
+* By measuring the performance and the efficiency of the defensives actions, defenders can create some metrics of the resiliency.
+* 
+
+
+
