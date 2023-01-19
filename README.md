@@ -19,8 +19,8 @@
  * This kill chain is composed of the following elements:
    * **Reconnaissance:** This step represent the research, the identification and the selection of targets.
    * **Weaponization:** It is the coupling between a remote access with an exploit into a deliverable payload. Nowadays, clients application such as PDF or Word documents are used as a weaponized deliverable.
-   * **Delivery:**
-   * **Exploitation:**
+   * **Delivery:** To transmit the weapon to the target, email attachements, web sites and USB stick are often used.
+   * **Exploitation:** When the weapon is delivered to the target, the weapon can use some vulnerabilites from the OS (automatic execution from code, for example), applications, or the users directly.
    * **Installation:**
    * **Command and Control (C2):**
    * **Actions on Objectives:**
