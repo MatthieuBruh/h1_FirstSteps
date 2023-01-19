@@ -52,7 +52,5 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
  * After the # sign, it is a comment. By this fact, you can write what you want, the computer will not execute it.
 
 Here is it some text
-    <code>
-    $ pwd # This second part is ignored.
-    /home/matthieu
-   </code>
+  $ pwd # This second part is ignored.
+  /home/matthieu
