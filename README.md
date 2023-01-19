@@ -47,6 +47,7 @@ Table 1 is a matrix that shows the different possible actions that the tools (lo
 
 ### [Karvinen 2020: Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/)
 * One of oldest thing in IT is the command line. It is used since a long time and it has several advantages, like the speed, possibility of automation and it is expressive.
+* All the following commands start with a $. You don't have to write it when you write your command.
 * When you are writing a command, you can find two signs that you must know:
  * After the $ sign, it is the normal command. It will be executed by the machine.
  * After the # sign, it is a comment. By this fact, you can write what you want, the computer will not execute it.
@@ -59,36 +60,53 @@ This is some text
 #### The most used commands in Linux
 **MOVING & EXPLORING***
 
-    ls # To list all the files of the current directory
-    cd myDirectory/ # To move in the directory named myDirectory
-    less helia.txt # Shows the file but page by page (space for next page, b for previous page, slashes for search, q for exist
-    ls /etc|less # The output of any command can be read a whole screen at a time by sending the output to less
+    $ ls # To list all the files of the current directory
+    $ cd myDirectory/ # To move in the directory named myDirectory
+    $ less helia.txt # Shows the file but page by page (space for next page, b for previous page, slashes for search, q for exist
+    $ ls /etc|less # The output of any command can be read a whole screen at a time by sending the output to less
 
 **FILE & DIRECTORY MANIPULATION**
 
-    nano foo.txt # Create a text file named foo
-    mkdir apple # Create a directory named apple
-    mv OLDNAME NEWNAME # Change the name of a directory
-    mv fruits home/ # Move the file to the directory home
-    cp -r first second # Create a recursive copy of a file or directory.
-    rmdir apple # Delete the directory named apple
-    rm foo.txt # Remove the foo.txt file
+    $ nano foo.txt # Create a text file named foo
+    $ mkdir apple # Create a directory named apple
+    $ mv OLDNAME NEWNAME # Change the name of a directory
+    $ mv fruits home/ # Move the file to the directory home
+    $ cp -r first second # Create a recursive copy of a file or directory.
+    $ rmdir apple # Delete the directory named apple
+    $ rm foo.txt # Remove the foo.txt file
 
 **SSH**
 SSH is used to control a machine remotly.
 
-    ssh 192.168.1.10 # We connect remotly to the computer that has the IP address
-    scp -r FOLDER 192.168.1.10:public_html/ # Copy a file securly to the remoted computer
+    $ ssh 192.168.1.10 # We connect remotly to the computer that has the IP address
     192.168.1.10$ exit # To close the connection
+    $ scp -r FOLDER 192.168.1.10:public_html/ # Copy a file securly to the remoted computer
 
 **HELP**
 
-    man ls # To show the manual page of command
-    ls --help # To show the manual page of the ls command
+    $ man ls # To show the manual page of command
+    $ ls --help # To show the manual page of the ls command
 
 **HISTORY & GUESSING**
 I advise you to use [tab] when you are writing a command. By using it, you will have an autocompletion.
 
-    history # Shows you the history of your commands
+    $ history # Shows you the history of your commands
 
 **DIRECTORY**
+| Directory | Explanation |
+| --------- | ----------- |
+| /         | It is the root directory. |
+| /home/    | It is the home directory for all users. |
+| /home/jack/ | It is the home directory of the user Jack. |
+| /etc/     | Contains all the system wide settings. |
+| /media/   | Removable media such an external SSD or a USB stick. |
+| /var/log  | Where all the logs of the different packages are stored. |
+
+**ADMINISTRATIVE COMMANDS**
+When you are using Linux, I advise you to use the concept of the least privilege. Avoid as much as possible to be as an administrator with the 'sudo' command.
+
+    $ sudo apt-get update # Update a list of available packages.
+    $ apt-cache search dungeon adventure # Search for software with keywords, NO SUDO NEEDED
+    $ sudo apt-get install apache2 # Install the package apache2
+    $ nethack # To run nethack
+    $ sudo apt-get purge nethack # To remove the package nethack
