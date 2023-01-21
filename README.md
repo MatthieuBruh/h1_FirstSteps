@@ -3,6 +3,7 @@
 2. [ Solve. ](#solve)
 3. [ Hacker warmup. ](#warmup)
 4. [ Debian. ](#debian)
+5. [ My fundaments. ](#funda)
 
 <a name="summary"></a>
 # Summary
@@ -209,3 +210,39 @@ We can also see that I created a snapshot.
 ## General: HTTP Basics & Developer tools
 
 <p align="center"> <img alt="WebGoat tasks accomplished" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/WebGoat_Finished.png"> </p>
+
+
+------
+
+<a name="funda"></a>
+# My fundaments
+
+## About password
+In computer security, we often talk about using strong passwords to protect our accounts.
+
+First of all, a strong password has often been defined as having the following characteristics:
+	- Minimum of eight characters,
+	- Includes upper and lower case letters,
+	- Contains numbers,
+	- Contains symbols.
+
+I think that unfortunately today, it is important to update the criteria of a strong password.
+Indeed, a password MUST contain the following criteria: upper and lower case letters, numbers and symbols and a correct length.
+A correct length of eight characters is no longer sufficient.
+According to Hive Systems, by 2022, an eight-character password with the above criteria would take only 39 minutes to find.
+The company estimates that a password of at least 12 characters with the same criteria should be available.
+
+In the following image published by Hive Systems, we can see how fast it is becoming to crack a password (between 2020 and 2022).
+
+<p align="center"> <img alt="Password Table changed from 2020 to 2022" src="https://twitter.com/i/status/1499806942897790977"> </p>
+
+The question that arises is the real effectiveness of a password.
+Seeing the speed of evolution, is a password alone really sufficient today?
+In addition, we have more and more accounts on different platforms.
+Knowing that each password must be different and not written down on a sheet of paper, it becomes impossible to remember them all.
+Therefore, it is interesting to use a password manager.
+It allows users to have to know only one password.
+
+However, using a password manager is not enough.
+I believe that the use of multi-factor authentication should also be mandatory.
+In view of the rapid development of technology, it is important to be prepared in advance to avoid problems.
