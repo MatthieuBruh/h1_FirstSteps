@@ -1,8 +1,8 @@
 # Table of contents
 1. [ Summary. ](#summary)
 2. [ Solve. ](#solve)
-3. [ Hacker warmup. ](#warmup)
-4. [ Debian. ](#debian)
+3. [ Debian. ](#debian)
+4. [ Hacker warmup. ](#warmup)
 5. [ My fundaments. ](#funda)
 
 <a name="summary"></a>
