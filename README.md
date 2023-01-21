@@ -167,6 +167,16 @@ Firstly, I moved to the inhere directory. Then, I have to find a file that conta
 Then, I knew which file was containing some ASCII characters. By this fact, I decided to cat the correct file to find the password.
 
 
+<a name="debian"></a>
+# Debian in VirtualBox
+### [Installation](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
+
+## My VB machines
+We can see that I created a virtual machine on VB named *InformationSecurity*.
+<p align="center"> <img alt="My VMs" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/VB.PNG"> </p>
+
+We can also see that I created a snapshot.
+<p align="center"> <img alt="InformationSecurity VM snapshot" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/vb_snap.PNG"> </p>
 
 
 ------
@@ -175,6 +185,6 @@ Then, I knew which file was containing some ASCII characters. By this fact, I de
 # Hacker warmup
 ### [WebGoat](https://owasp.org/www-project-webgoat/#:~:text=WebGoat%20is%20a%20deliberately%20insecure,and%20popular%20open%20source%20components.)
 
-## General: HTTP Basics
+## General: HTTP Basics & Developer tools
 
-## General: Developer tools
+<p align="center"> <img alt="WebGoat tasks accomplished" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/WebGoat_Finished.png"> </p>
