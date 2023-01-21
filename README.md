@@ -210,7 +210,8 @@ We can also see that I created a snapshot.
 ## General: HTTP Basics & Developer tools
 
 <p align="center"> <img alt="WebGoat tasks accomplished" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/WebGoat_Finished.png"> </p>
-
+For HTTP Basics: I found the magic number by checking the request.
+For Developer tools: I used the Developer tools (console tab) from Google Chrome to call the function. I also used the network tab to find the networkNum.
 
 ------
 
