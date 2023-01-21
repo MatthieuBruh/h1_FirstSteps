@@ -194,7 +194,7 @@ W corresponds to match with the entire word.
 ### [Installation](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
 
 ## My VB machines
-We can see that I created a virtual machine on VB named *InformationSecurity*.
+We can see that I created a virtual machine on VB named *InformationSecurity*. To install Debian on a VM, I followed the tutorial from the previous link *Installation*.
 <p align="center"> <img alt="My VMs" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/VB.PNG"> </p>
 
 We can also see that I created a snapshot.
@@ -206,6 +206,7 @@ We can also see that I created a snapshot.
 <a name="warmup"></a>
 # Hacker warmup
 ### [WebGoat](https://owasp.org/www-project-webgoat/#:~:text=WebGoat%20is%20a%20deliberately%20insecure,and%20popular%20open%20source%20components.)
+To install WebGoat, I followed the tutorial from [Karvinen 2021, Install Webgoat 8 - Learn Web Pentesting ](https://terokarvinen.com/2020/install-webgoat-web-pentest-practice-target/)
 
 ## General: HTTP Basics & Developer tools
 
