@@ -1,6 +1,7 @@
 # Table of contents
 1. [ Summary. ](#summary)
 2. [ Solve. ](#solve)
+3. [ Hacker warmup. ](#warmup)
 
 <a name="summary"></a>
 # Summary
@@ -165,3 +166,15 @@ Firstly, I moved to the inhere directory. Then, I have to find a file that conta
 
 Then, I knew which file was containing some ASCII characters. By this fact, I decided to cat the correct file to find the password.
 
+
+
+
+------
+
+<a name="warmup"></a>
+# Hacker warmup
+### [WebGoat](https://owasp.org/www-project-webgoat/#:~:text=WebGoat%20is%20a%20deliberately%20insecure,and%20popular%20open%20source%20components.)
+
+## General: HTTP Basics
+
+## General: Developer tools
