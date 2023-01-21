@@ -2,6 +2,7 @@
 1. [ Summary. ](#summary)
 2. [ Solve. ](#solve)
 3. [ Hacker warmup. ](#warmup)
+4. [ Debian. ](#debian)
 
 <a name="summary"></a>
 # Summary
