@@ -167,6 +167,26 @@ Firstly, I moved to the inhere directory. Then, I have to find a file that conta
 
 Then, I knew which file was containing some ASCII characters. By this fact, I decided to cat the correct file to find the password.
 
+## Level 5 -> 6 (optional)
+For this level, I had to reuse the same base as the command used in the previous level. I changed it so that it acts on the children's directories.
+In addition, to this first command, I added the *find* command to only have the file with the specific size and a non-executable file. 
+
+    file maybehere*/* | find -size 1033c ! -executable
+
+## Level 6 -> 7 (optional)
+First of all, because of the instruction, I decided to go at the highest point of the directories' tree.
+Then I used the combination of two commands. The first one is *find* with the criteria of the user, the group, and the size. Then I added the *grep* command with the criteria *-v "Permission denied"* to remove all the print that contains the expression "Permission denied".
+
+    find -user bandit7 -group bandit6 -size 33c |& grep -v "Permission denied"
+
+## Level 7 -> 8 (optional)
+For this level, I used the command *grep* with the option -rnw and the criteria -e 'millionth'.
+R corresponds to recursive.
+W corresponds to match with the wall word.
+-e corresponds to the search criteria.
+
+    grep -rw data.txt -e 'millionth'
+
 
 <a name="debian"></a>
 # Debian in VirtualBox
