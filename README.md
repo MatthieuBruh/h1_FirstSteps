@@ -234,7 +234,7 @@ The company estimates that a password of at least 12 characters with the same cr
 
 In the following image published by Hive Systems, we can see how fast it is becoming to crack a password (between 2020 and 2022).
 
-<p align="center"> <img alt="Password Table changed from 2020 to 2022" src="https://twitter.com/i/status/1499806942897790977"> </p>
+<p align="center"> <img alt="Password Table changed from 2020 to 2022" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/HiveSystems.mp4"> </p>
 
 The question that arises is the real effectiveness of a password.
 Seeing the speed of evolution, is a password alone really sufficient today?
