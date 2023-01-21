@@ -182,7 +182,7 @@ Then I used the combination of two commands. The first one is *find* with the cr
 ## Level 7 -> 8 (optional)
 For this level, I used the command *grep* with the option -rnw and the criteria -e 'millionth'.
 R corresponds to recursive.
-W corresponds to match with the wall word.
+W corresponds to match with the entire word.
 -e corresponds to the search criteria.
 
     grep -rw data.txt -e 'millionth'
