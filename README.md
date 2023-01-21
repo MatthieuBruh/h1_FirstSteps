@@ -256,6 +256,7 @@ For Developer tools: I used the Developer tools (console tab) from Google Chrome
 
     Action contains: ';DROP TABLE access_log;--
 
+
 ------
 
 <a name="funda"></a>
