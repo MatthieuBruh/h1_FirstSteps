@@ -190,11 +190,24 @@ W corresponds to match with the entire word.
 
 
 <a name="debian"></a>
-# Debian in VirtualBox
+# Debian on VirtualBox (VB)
 ### [Installation](https://terokarvinen.com/2021/install-debian-on-virtualbox/)
 
 ## My VB machines
-We can see that I created a virtual machine on VB named *InformationSecurity*. To install Debian on a VM, I followed the tutorial from the previous link *Installation*.
+We can see that I created a virtual machine on VB named *InformationSecurity*. To install Debian on a VM, I followed the tutorial from the previous link *Installation*. In addition, before the installation, I already had the Oracle VirtualBox application.
+Firstly, downloaded the ISO file from Debien [here](https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/debian-live-11.6.0-amd64-xfce+nonfree.iso).
+Secondly, I created a new VM on VB by clicking on: Machine -> New. On this first window, I entered the name of the VM, and I selecty Linux as type and Debian (64-bit) as a version. Then, I clicked next. For the memory size, I select 4000 MB, I think it is a good compromise between my computer resources and the requested resources by Debian. For the hard disk, I select: "Create a virtual hard disk now", and I clicked on create. Concerning the hard disk file type, I chose VDI and "Dynamic allocated" for the storage on physical hard disk. I decided to have a VM with a disk size of 50GB, to have enough space to do some tests. Then I finished this first configuration step.
+Thirdly, it was time to start the VM, so, I clicked on start. Now I had to select the start-up disk. I choose the Debian ISO file. At this point, the VM should start, so I selected the first option "Debian GNU/Linux Live...". When the VM has finished to start, you will find "Install Debian" icon on the Desktop, I select it to install the OS. Then, I had to enter few information. The most important one was to select "Erase disk" after selecting my keyboard.
+Finally, when the system is rebooted, I select "Debian GNU/Linux" to boot on the installed OS. When I was logged in, I opened the terminal to update the software.
+
+    sudo apt-get update
+    sudo apt-get -y dist-upgrade
+ 
+ I also decided to install and enable a firewall (I restarted my computer after the installation).
+ 
+     sudo apt-get -y install ufw
+     sudo ufw enable
+
 <p align="center"> <img alt="My VMs" src="https://github.com/MatthieuBruh/h1_FirstSteps/blob/main/VB.PNG"> </p>
 
 We can also see that I created a snapshot.
